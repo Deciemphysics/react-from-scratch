@@ -8,6 +8,9 @@
     "start": "babel-node ./index.js",
     "lint": "eslint . --ext .js,.jsx"
   },
+  "pre-commit": [
+    "lint"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
